@@ -26,10 +26,10 @@ describe('Login Tests', function() {
         console.log(`Screenshot saved to ${filePath}`);
     }
     const path = require('path');
-const fs = require('fs');
+    const fs = require('fs');
 
 // Create a function to take screenshots
-async function takeScreenshot(driver, fileName) {
+    async function takeScreenshot(driver, fileName) {
     const screenshot = await driver.takeScreenshot();
     const screenshotsDir = path.join(__dirname, 'screenshots');
 
@@ -68,7 +68,6 @@ async function takeScreenshot(driver, fileName) {
     it('should fail login with invalid credentials', async function() {
         try {
             await driver.get('https://lapor.folkatech.com/');
-
             await loginPage.enterEmail('test12@example.com'); // Replace with actual valid username
             await loginPage.enterPassword('password!'); // Replace with actual valid password
             await loginPage.clickSignInButton(); // Click the "Sign in" button
