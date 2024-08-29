@@ -1,0 +1,15 @@
+{
+  "name": "login-credential",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha tests/loginTest.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0",
+    "chai": "^4.3.6",
+    "chromedriver": "^108.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
