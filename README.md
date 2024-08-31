@@ -18,8 +18,10 @@ This project contains an automated test suite using Selenium WebDriver to test t
    git clone https://github.com/your-repository/login-credential.git
    cd login-credential
 
-2. -- npm install 
-(This will install all necessary dependencies, including selenium-webdriver, mocha, chai, and other testing utilities)
+2. **This will install all necessary dependencies, including selenium-webdriver, mocha, chai, and other testing utilities**
+   ```bash
+   npm install 
 
-3. Running Test
--- npx mocha tests/loginTest.js
+4. **Running Test**
+   ```bash
+   npx mocha tests/loginTest.js
